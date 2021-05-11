@@ -1,0 +1,39 @@
+<mxfile host="app.diagrams.net" modified="2021-05-11T13:04:41.914Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="h9Q92R65np-mUrFZe1Ma" version="14.6.11" type="github">
+  <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
+    <mxGraphModel dx="1059" dy="677" grid="1" gridSize="14" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Q02FXsza6Zca475B_VZM-1" value="&lt;font&gt;&lt;b&gt;&lt;u&gt;&lt;font style=&quot;font-size: 22px&quot;&gt;client&lt;/font&gt;&lt;br&gt;&lt;/u&gt;&lt;/b&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;PK:clientID&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;nom&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;prénom&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;adresse&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;phone&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;email&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;motdepasse&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="84" y="196" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Q02FXsza6Zca475B_VZM-4" value="&lt;font&gt;&lt;u style=&quot;font-size: 22px ; font-weight: bold&quot;&gt;&lt;font style=&quot;font-size: 22px&quot;&gt;produits&lt;/font&gt;&lt;/u&gt;&lt;br&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;produitID&lt;br&gt;catégorieID&lt;br&gt;&lt;/span&gt;nom produit&lt;br&gt;prix unité&lt;br&gt;stock&lt;br&gt;produit image&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="538" y="487" width="120" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="Q02FXsza6Zca475B_VZM-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="537" y="266" as="sourcePoint" />
+            <mxPoint x="308" y="238" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q02FXsza6Zca475B_VZM-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.025;exitY=0.424;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Q02FXsza6Zca475B_VZM-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="658" y="518" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q02FXsza6Zca475B_VZM-7" value="&lt;b&gt;&lt;u&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;commande&lt;/font&gt;&lt;/u&gt;&lt;/b&gt;&lt;br&gt;PK:commandeID&lt;br&gt;FK:clientID&lt;br&gt;FK:produitID&lt;br&gt;date de commande&lt;br&gt;status&lt;br&gt;date de payement&lt;br&gt;annulé" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="538" y="210" width="134" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="Q02FXsza6Zca475B_VZM-13" value="&lt;b&gt;&lt;u&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;catégorie&lt;/font&gt;&lt;/u&gt;&lt;/b&gt;&lt;br&gt;catégorieID&lt;br&gt;nom catégorie&lt;br&gt;catégorie image" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="392" y="574" width="98" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="Q02FXsza6Zca475B_VZM-30" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Q02FXsza6Zca475B_VZM-4" target="Q02FXsza6Zca475B_VZM-13" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="574" y="540" as="sourcePoint" />
+            <mxPoint x="616" y="812" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
